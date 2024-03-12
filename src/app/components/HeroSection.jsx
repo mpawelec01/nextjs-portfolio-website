@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   const saveFile = () => {
     saveAs(
-      "https://drive.google.com/file/d/1hNiE3-Lk0132NoVP1hfgWIIJ3kgMibeR/view?usp=sharing",
+      "https://drive.google.com/file/d/1hNiE3-Lk0132NoVP1hfgWIIJ3kgMibeR/view",
       "Mateusz-Pawelec_CV.pdf"
     );
   };
