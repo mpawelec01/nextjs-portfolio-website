@@ -7,6 +7,26 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title:
+      "Kapusta Frontend - Group project during the course (participated as Team Leader and DEV)",
+    descripion: "React.js, modules CSS, Redux",
+    image: "/images/projects/kapusta-frontend.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/mpawelec01/goit-kapusta-project",
+    previewUrl: "https://mpawelec01.github.io/goit-kapusta-project",
+  },
+  {
+    id: 2,
+    title:
+      "Kapusta Backend - Group project during the course (participated as Team Leader and DEV)",
+    descripion: "Node.js, Express, MongoDB, Mongoose, Swagger",
+    image: "/images/projects/kapusta-backend.jpg",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/bartek1190/Project-Kapusta-Backend",
+    previewUrl: "https://vast-plum-camel-vest.cyclic.app/api-docs/",
+  },
+  {
+    id: 3,
     title: "NextJs Portfolio Website",
     descripion: "Next.js, TailwindCss",
     image: "/images/projects/portfolio-project.jpg",
@@ -15,7 +35,7 @@ const projectsData = [
     previewUrl: "https://nextjs-portfolio-website-blue.vercel.app",
   },
   {
-    id: 2,
+    id: 4,
     title: "Car rental website",
     descripion: "Next.js, TailwindCss",
     image: "/images/projects/car-rental.jpg",
@@ -24,7 +44,7 @@ const projectsData = [
     previewUrl: "https://car-rental-website-blue.vercel.app",
   },
   {
-    id: 3,
+    id: 5,
     title: "Backend CRUD REST API",
     descripion: "Node.js, Express, MongoDB, Mongoose",
     image: "/images/projects/backend-app.jpg",
@@ -33,29 +53,29 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Phonebook Manager",
-    descripion: "React, ChakraUI, Redux",
+    descripion: "React.js, ChakraUI, Redux",
     image: "/images/projects/phonebook-manager.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/mpawelec01/goit-react-hw-08-phonebook",
     previewUrl: "https://mpawelec01.github.io/goit-react-hw-08-phonebook/",
   },
   {
-    id: 5,
+    id: 7,
     title:
       "Bookshelf - Group project during the course (participated as Scrum Master and DEV)",
-    descripion: "HTML, SCSS",
+    descripion: "HTML, SCSS, JavaScript",
     image: "/images/projects/bookshelf.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/gointoorbit/goit-project-js-group-2",
     previewUrl: "https://gointoorbit.github.io/goit-project-js-group-2/",
   },
   {
-    id: 6,
+    id: 8,
     title:
       "Ice cream - Group project during the course (participated as Team Leader and DEV)",
-    descripion: "HTML, SCSS",
+    descripion: "HTML, SCSS, JavaScript",
     image: "/images/projects/ice-cream.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/mpawelec01/project_grupa_06",

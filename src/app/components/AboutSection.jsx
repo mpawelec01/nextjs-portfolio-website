@@ -36,6 +36,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>FullStack Developer course at GoIT</li>
         <li>JavaScript - The only course you need by Mateusz Maj</li>
         <li>Cisco Networking Academy IT Essentials </li>
       </ul>
